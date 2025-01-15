@@ -47,7 +47,7 @@ public final class Limelight {
     }
 
     private double angleToGoalRadians() {
-        return angleToGoalDegrees() * Constants.TO_RADIANS;
+        return angleToGoalDegrees() * (Math.PI / 180);
     }
 
     public double distanceFromLimelightToGoalInches() {
